@@ -1,0 +1,51 @@
+.page-section-about { 
+  text-align: center;
+  background-color: #04426c;
+  color: #04426c;
+  padding-bottom: 50px;
+}
+.section {
+  padding: 80px 0;
+}
+
+.section:nth-child(even) {
+  background: #04426c;
+}
+
+.section-about .section-devider {
+  display: block;
+  height: 1px;
+  margin: 50px 0;
+}
+
+.section .section-devider.transparent {
+  background-color: transparent;
+}
+
+.section.py-sm {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+.section.py-lg {
+  padding-top: 140px !important;
+  padding-bottom: 140px !important;
+}
+
+.section .section-subtitle {
+  font-size: calc(13px + (13 - 13) * ((100vw - 320px) / (1200 - 320)));
+  font-weight: 500;
+  margin-bottom: 0px;
+  opacity: .9;
+}
+
+.section .section-title {
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+  padding-bottom: 7px;
+  font-weight: 600;
+}
+
+.section .components-section-title {
+  font-size: calc(18px + (23 - 18) * ((100vw - 320px) / (1200 - 320)));
+  margin-bottom: 15px;
+}
